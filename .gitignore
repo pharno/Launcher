@@ -1,2 +1,4 @@
 build/
 node_modules/
+app/browser/resources/bower_components/
+launcher.db
