@@ -4,7 +4,8 @@
   "main": "start.js.js",
   "license": "MIT",
   "dependencies": {
-    "electron-prebuilt": "*"
+    "electron-prebuilt": "*",
+    "flat-file-db": "^0.1.5"
   },
   "devDependencies": {
     "gulp": "^3.8.11",
