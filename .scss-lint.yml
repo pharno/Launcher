@@ -1,0 +1,13 @@
+scss_files: '/public/resources/**/*.scss'
+
+linters:
+
+  Indentation:
+    severity: warning
+    width: 4
+
+  PropertySortOrder:
+    enabled: false
+
+  FinalNewline:
+    severity: error

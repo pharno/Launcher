@@ -1,0 +1,22 @@
+{
+  "name": "atom-shell-template",
+  "version": "1.0.0",
+  "authors": [
+    "Emil Öberg <emil.oberg@monator.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "https://github.com/Dogfalo/materialize.git#~0.95.2"
+  }
+}
