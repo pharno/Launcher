@@ -33,7 +33,7 @@ app.on('ready', function () {
 
 ipc.on("launch", function(event,arg){
     console.log("launching " + arg)
-    console.log(child_process.spawn(arg));
+    console.log(child_process.spawn(arg, [], { cwd: path.dirname(arg) }));
 })
 
 ipc.on("chooseGame", function(event, arg){
