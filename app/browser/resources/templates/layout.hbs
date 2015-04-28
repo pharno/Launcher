@@ -1,0 +1,34 @@
+<head>
+    <link rel="stylesheet" href="resources/bower_components/Materialize/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="resources/css/main.css">
+    <script src="resources/bower_components/jquery/dist/jquery.js"></script>
+    <script>
+            $ = jQuery = require("./resources/bower_components/jquery/dist/jquery.js")
+            Hammer = require("./resources/bower_components/hammerjs/hammer.js")
+    </script>
+
+
+    <script src="resources/bower_components/Materialize/dist/js/materialize.js"></script>
+    <script src="client.js"></script>
+    <title>Launcher</title>
+</head>
+<body class="main_color" unresolved>
+    <nav class="grey darken-3_5" role="navigation">
+        <div class="nav-wrapper">
+            <a id="logo-container" href="#" class="username">/u/damnthatsfuckinggood</a>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="#">Nickname</a>
+                </li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        </div>
+    </nav>
+
+    <div id="app" class="row">
+        {{#block "body"}}
+            body
+        {{/block}}
+    </div>
+
+</body>

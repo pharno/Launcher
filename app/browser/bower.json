@@ -18,6 +18,8 @@
   ],
   "dependencies": {
     "Materialize": "https://github.com/Dogfalo/materialize.git#~0.95.2",
-    "hammerjs": "~2.0.4"
+    "hammerjs": "~2.0.4",
+    "handlebars": "~3.0.2",
+    "handlebars-layouts": "shannonmoeller/handlebars-layouts#~2.0.2"
   }
 }

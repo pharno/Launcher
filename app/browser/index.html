@@ -1,5 +1,6 @@
-<head>
-    <link rel="stylesheet" href="resources/bower_components/Materialize/dist/css/materialize.min.css">
+<html>
+    <head>
+       <link rel="stylesheet" href="resources/bower_components/Materialize/dist/css/materialize.min.css">
     <link rel="stylesheet" href="resources/css/main.css">
     <script src="resources/bower_components/jquery/dist/jquery.js"></script>
     <script>
@@ -10,56 +11,9 @@
 
     <script src="resources/bower_components/Materialize/dist/js/materialize.js"></script>
     <script src="client.js"></script>
-    <title>Launcher</title>
-</head>
-<body class="main_color">
-    <nav class="grey darken-3_5" role="navigation">
-        <div class="nav-wrapper">
-            <a id="logo-container" href="#" class="username">/u/damnthatsfuckinggood</a>
-            <ul class="right hide-on-med-and-down">
-                <li>
-                    <a href="#">Nickname</a>
-                </li>
-            </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-        </div>
-    </nav>
 
-    <div id="app" class="row">
- 
-        <div class="sidebar col s2">
-            <div id="search">
-                <input type="text" id="searchbox" placeholder="Search Library">
-            </div>
-        </div>
-
-        <div class="content col s10">
-
-            <form>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="password" type="text" class="validate">
-                        <label for="text">Game Name</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="file-field input-field">
-                        <input class="file-path validate" type="text" id="file"/>
-                        <div class="btn" onclick="chooseGame(event)">
-                            <span>Path</span>
-                            <input type="file" id="path" />
-                        </div>
-                    </div>
-                </div>
-                <a href="javascript:addGame($('#password').val(),$('#file').val());" class="waves-effect waves-light btn grey">Add</a>
-
-            </form>
-        </div>
-
-        <a href="javascript:getGameList();" class="waves-effect waves-light btn grey">Load list</a>
-
-        <div id="gamelist">
-        </div>
-    </div>
-
-</body>
+        <script type="text/javascript">
+            loadPage("resources/templates/main.html");
+        </script>
+    </head>
+</html>
