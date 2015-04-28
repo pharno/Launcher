@@ -1,0 +1,19 @@
+.nav-wrapper {
+  padding: 3px; }
+
+.grey.darken-3_5 {
+  background-color: #22262F !important; }
+
+.main_color {
+  background-color: #2C3240; }
+
+.username {
+  padding-left: 20px;
+  color: #858994; }
+
+.sidebar {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+#search {
+  margin: 0 0.5em; }

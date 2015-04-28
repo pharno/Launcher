@@ -22,7 +22,7 @@ app.on('window-all-closed', function () {
 });
 
 app.on('ready', function () {
-    mainWindow = new BrowserWindow({ width: 1200, height: 800 });
+    mainWindow = new BrowserWindow({ width: 1200, height: 800, frameless: true});
 	mainWindow.loadUrl(path.join('file://', __dirname, '/../browser/index.html'));
 
 
